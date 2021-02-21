@@ -49,11 +49,6 @@ public class Player {
         money-=amount;
     }
 
-    public boolean displayBuyingStatus(BuyableTile tile) {
-        //TODO
-        return false;
-    }
-
     public boolean displayBuyingProposition(BuyableTile tile) {
         System.out.println("Current balance : "+money+"$");
         System.out.println("Do you want to buy this tile ? [y/n]");

@@ -43,7 +43,7 @@ public abstract class BuyableTile extends Tile {
         else
         {
             //Player doesn't have enough money to buy the tile, display status and abort
-            player.displayBuyingStatus(this);
+            System.out.println(player+" can't afford "+tileName+" yet");
         }
     }
 

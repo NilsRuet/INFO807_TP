@@ -43,10 +43,6 @@ public class PublicServiceTile extends BuyableTile {
             int newB = player.getMoney();
             System.out.println(owner.toString() +" "+oldS+"$ -> "+newS+"$");
             System.out.println(player.toString() +" "+oldB+"$ -> "+newB+"$");
-
-
-            //Launch the buying status routine
-            player.displayBuyingStatus(this);
         }
         else
             //Launch the BuyableTile buy routine
