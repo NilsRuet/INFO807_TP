@@ -10,7 +10,9 @@ public class Dice {
 
     //Roll an integer between min and max
     public void roll() {
-        value = rdm.nextInt() % MAX + MIN;
+        int v = rdm.nextInt();
+        if(v<0) v=-v;
+        value = v % MAX + MIN;
     }
 
     public int getValue() {

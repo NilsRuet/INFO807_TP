@@ -43,10 +43,7 @@ public class MonopolyGame {
     ///Methods
     public void startGame() {
         //Randomize the first player :
-        Random rng = new Random();
         int index = 0;
-        /*int index = rng.nextInt() % players.size();
-        if(index<0) index+= players.size();*/
         currentPlayer = players.get(index);
         while(true){
             currentPlayer.playTurn();
