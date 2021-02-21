@@ -129,7 +129,7 @@ public class Board {
                         this.tiles.add(new PublicServiceTile(name, buyingCost, publicServiceLot));
                         break;
                     case "DrawCardTile":
-                        this.tiles.add(new DrawCardTile(name));
+                        this.tiles.add(new DrawCardTile());
                         break;
                     case "LuxuryTaxTile":
                         this.tiles.add(new LuxuryTaxTile());
@@ -161,10 +161,14 @@ public class Board {
 
         for (Player o : playerPositions.keySet())
         {
+            int pos = playerPositions.get(o);
             acc.append("Player ");
             acc.append(o.toString());
-            acc.append(" is on index : ");
-            acc.append(playerPositions.get(o));
+            acc.append(" is on tile : ");
+            acc.append(pos);
+            acc.append(" (");
+            acc.append(tiles.get(pos));
+            acc.append(")");
             acc.append("\n");
         }
 

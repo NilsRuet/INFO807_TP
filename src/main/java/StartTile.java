@@ -20,5 +20,4 @@ public class StartTile extends Tile {
         System.out.println(player + " passed by the start tile and received a "+salary+"$ salary.");
         player.receiveMoney(this.salary);
     }
-
 }

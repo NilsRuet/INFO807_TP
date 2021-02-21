@@ -6,7 +6,7 @@ public class LuxuryTaxTile extends Tile {
     ///Constructors
     public LuxuryTaxTile()
     {
-        this.tileName = "LUXURY TAX";
+        this.tileName = "Luxury tax tile";
     }
 
     ///Methods

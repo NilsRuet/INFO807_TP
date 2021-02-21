@@ -12,4 +12,8 @@ public abstract class Tile {
         return this.tileName;
     }
 
+    @Override
+    public String toString() {
+        return tileName;
+    }
 }

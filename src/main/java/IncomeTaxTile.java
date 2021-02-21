@@ -7,7 +7,7 @@ public class IncomeTaxTile extends Tile {
     ///Constructors
     public IncomeTaxTile()
     {
-        this.tileName = "Income Tax Tile";
+        this.tileName = "Income tax tile";
     }
 
 

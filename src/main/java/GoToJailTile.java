@@ -2,7 +2,7 @@ public class GoToJailTile extends Tile{
     ///Constructor
     public GoToJailTile()
     {
-        this.tileName = "Go To Jail Tile";
+        this.tileName = "Go to jail";
     }
 
 

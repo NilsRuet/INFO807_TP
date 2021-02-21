@@ -2,9 +2,9 @@ public class DrawCardTile extends Tile{
 
     ///Constructors
 
-    public DrawCardTile(String name)
+    public DrawCardTile()
     {
-        this.tileName = name;
+        this.tileName = "Draw card";
     }
 
 

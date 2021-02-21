@@ -3,7 +3,7 @@ public class PrisonTile extends Tile {
     ///Constructors
     public PrisonTile()
     {
-        this.tileName = "Prison Tile";
+        this.tileName = "Jail";
     }
 
     ///Methods

@@ -4,7 +4,7 @@ public class ParkTile extends Tile {
     ///Constructors
     public ParkTile()
     {
-        this.tileName = "Free Park Tile";
+        this.tileName = "Free park";
     }
 
     ///Methods
